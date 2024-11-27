@@ -1,9 +1,9 @@
 
 <?php
 
-$host = "devweb2024.cis.strath.ac.uk";
-$user = "qrb23133";
-$pass = "aaS9heith6to";
+$host = "";
+$user = "";
+$pass = "";
 $dbname = $user;
 
 // Database connection
