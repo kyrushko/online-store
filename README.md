@@ -38,7 +38,7 @@ Installation and Setup
 	5.	Update the database configuration in a central PHP file (if one exists, typically named config.php or similar).
 	6.	Start your server and navigate to http://localhost/your_project_folder/ in your browser.
 
-Features
+## Features
 
 User Functionality:
 
