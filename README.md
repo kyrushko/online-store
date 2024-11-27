@@ -1,6 +1,4 @@
-Here’s a sample README.md file for your project based on the files visible in the image:
-
-Art Store PHP Application
+#Art Store PHP Application
 
 Project Description
 
