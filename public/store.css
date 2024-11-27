@@ -1,0 +1,122 @@
+@media (max-width: 767.98px) { /* For small screens, less than 768px */
+    .navbar-nav .nav-item .nav-link {
+        font-size: 20px; /* Set font size to 40px for small screens */
+        padding: 0.5rem 1rem; /* Adjust padding as needed */
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /* For medium screens, 768px to 991.98px */
+    .navbar-nav .nav-item .nav-link {
+        font-size: 20px; /* Set font size to 40px for medium screens */
+        padding: 0.5rem 1rem; /* Adjust padding as needed */
+    }
+}
+.main_msg {
+    padding-top: 100px !important;
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #41333E;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 6% ;
+}
+
+.container1:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    border-radius: 6% ;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.container1 {
+    position: relative;
+    width: 320px;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.cara_img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6% ;
+
+}
+.img_hover:hover{
+    cursor: pointer;
+}
+.menu_sort{
+    margin-top: 5%;
+    width: 10%;
+}
+/* Custom styles for pagination links */
+.pagination .page-link {
+    color: black; /* Default link color */
+    background-color: #f8f9fa; /* Background color of links */
+    border-color: #dee2e6; /* Border color */
+}
+
+.pagination .page-link:hover {
+    color: darkgray; /* Hover color */
+    background-color: #e9ecef; /* Hover background color */
+    border-color: #dee2e6; /* Border color on hover */
+}
+
+.pagination .page-item.active .page-link {
+    color: white; /* Active link text color */
+    background-color: gray; /* Active link background color */
+    border-color: gray; /* Active link border color */
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d; /* Disabled link color */
+    background-color: #f8f9fa; /* Disabled background color */
+    border-color: #dee2e6; /* Disabled border color */
+}
+
+.logo{
+    background: linear-gradient(90deg, #0f566b, #db6969) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-size: 130%;
+
+}
+.cart{
+    position: relative;
+
+}
+#countCart{
+    margin-left: 8px;
+    font-size: 14px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-7px;
+    z-index: 100;
+}
+#navbarNav ul{
+    align-items: center !important;
+}
