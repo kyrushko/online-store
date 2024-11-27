@@ -45,9 +45,9 @@
                 <h1>Hello! My name is Cara. <br> Feel free to explore your next artpiece here!</h1>
                 <div class="container1 ">
                     <?php
-                    $host = "devweb2024.cis.strath.ac.uk";
-                    $user = "qrb23133";
-                    $pass = "aaS9heith6to";
+                    $host = "";
+                    $user = "";
+                    $pass = "";
                     $dbname = $user;
                     $conn = new mysqli($host, $user, $pass, $dbname);
                     $sql = "SELECT `image` FROM `Art` where `id` = 1";//note do not have `abc01234`. in front of the table name if you used $dbname to connect
