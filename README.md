@@ -1,6 +1,6 @@
-#Art Store PHP Application
+# Art Store PHP Application
 
-Project Description
+## Project Description
 
 This project is a PHP-based web application designed for managing an online art store. Users can browse available artwork, add items to a cart, and place orders, while administrators can manage the catalog and orders. The system implements basic CRUD (Create, Read, Update, Delete) functionalities to handle items and orders efficiently.
 
