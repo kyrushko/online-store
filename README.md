@@ -4,7 +4,7 @@
 
 This project is a PHP-based web application designed for managing an online art store. Users can browse available artwork, add items to a cart, and place orders, while administrators can manage the catalog and orders. The system implements basic CRUD (Create, Read, Update, Delete) functionalities to handle items and orders efficiently.
 
-File Structure
+## File Structure
 
 Main Files
 
@@ -60,6 +60,6 @@ Requirements
 	•	A web server like Apache or Nginx
 	•	Browser with JavaScript enabled
 
-License
+## License
 
 This project is for educational purposes only. Feel free to modify and expand upon the code as needed.
